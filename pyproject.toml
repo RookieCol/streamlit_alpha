@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "streamlit-alpha"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 authors = ["rookie <juan.diegoam@hotmail.com>"]
 readme = "README.md"
@@ -8,6 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.29.0"
+yfinance = "^0.2.37"
+
+[tool.poetry.scripts]
+start-app = "streamlit run ./streamlit_alpha/app.py"
+
 
 
 [build-system]
